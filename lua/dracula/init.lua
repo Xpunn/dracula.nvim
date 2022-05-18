@@ -106,10 +106,10 @@ M.apply = function()
 	highlight("StorageClass", colors.pink, nil, nil, nil)
 	highlight("Structure", colors.yellow, nil, nil, nil)
 	highlight("TypeDef", colors.yellow, nil, nil, nil)
-	highlight("Special", colors.green, nil, "italic", nil)
-	highlight("SpecialComment", colors.comment, nil, "italic", nil)
+	highlight("Special", colors.green, nil, nil, nil)
+	highlight("SpecialComment", colors.comment, nil, nil, nil)
 	highlight("Error", colors.bright_red, nil, nil, nil)
-	highlight("Todo", colors.purple, nil, "bold,italic", nil)
+	highlight("Todo", colors.purple, nil, "bold", nil)
 	highlight("Underlined", colors.cyan, nil, "underline", nil)
 
 	highlight("Cursor", nil, nil, "reverse", nil)
@@ -217,7 +217,7 @@ M.apply = function()
 	highlight("TSOperator", colors.pink, nil, nil, nil)
 	highlight("TSException", colors.purple, nil, nil, nil)
 	highlight("TSType", colors.blue, nil, nil, nil)
-	highlight("TSTypeBuiltin", colors.cyan, nil, "italic", nil)
+	highlight("TSTypeBuiltin", colors.cyan, nil, nil, nil)
 	highlight("TSStructure", colors.purple, nil, nil, nil)
 	highlight("TSInclude", colors.pink, nil, nil, nil)
 
@@ -226,11 +226,11 @@ M.apply = function()
 
   highlight("TSText", colors.orange, nil, nil, nil)
 	highlight("TSStrong", colors.orange, nil, "bold", nil)  -- bold
-	highlight("TSEmphasis", colors.yellow, nil, "italic", nil)  -- italic
+	highlight("TSEmphasis", colors.yellow, nil, nil, nil)  -- italic
 	highlight("TSUnderline", colors.orange, nil, nil, nil)
 	highlight("TSTitle", colors.pink, nil, nil, nil)          -- title
 	highlight("TSLiteral", colors.yellow, nil, nil, nil)      -- inline code
-	highlight("TSURI", colors.yellow, nil, "italic", nil)     -- urls
+	highlight("TSURI", colors.yellow, nil, nil, nil)     -- urls
 
   highlight("TSTag", colors.cyan, nil, nil, nil)
 	highlight("TSTagDelimiter", colors.white, nil, nil, nil)
@@ -255,7 +255,7 @@ M.apply = function()
 	highlight("htmlTitle", colors.white, nil, nil, nil)
 
 	-- Markdown
-	highlight("markdownBlockquote", colors.yellow, nil, "italic", nil)
+	highlight("markdownBlockquote", colors.yellow, nil, nil, nil)
 	highlight("markdownBold", colors.orange, nil, "bold", nil)
 	highlight("markdownCode", colors.green, nil, nil, nil)
 	highlight("markdownCodeBlock", colors.orange, nil, nil, nil)
